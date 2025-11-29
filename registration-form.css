@@ -1,0 +1,168 @@
+body{
+    margin: auto;
+    padding: auto;
+    background: rgb(221, 234, 246);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+.hero{
+    background-color: rgb(8, 8, 233);
+    border-radius: 5px;
+}
+.heading{
+    max-width: 50vw;
+    justify-content: space-evenly;
+    font-size: 16px;
+}
+.container{
+    background-color: white;
+    padding: 10px;
+    border-top: 10px solid rgb(66, 133, 244) ;
+    border-radius: 6px 6px;
+}
+.name{
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 6px 6px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    color: rgb(32, 33, 36);
+}
+.name input{
+    border: none;
+    border-bottom: 1px solid;
+    width: 20vw;
+}
+.phone{
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 6px 6px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    color: rgb(32, 33, 36);
+}
+.phone input{
+    border: none;
+    border-bottom: 1px solid;
+    width: 20vw;
+}
+#phone-number{
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 6px 6px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    color: rgb(32, 33, 36);
+}
+#phone-number input{
+    border: none;
+    border-bottom: 1px solid;
+    width: 20vw;
+}
+.fees{
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 6px 6px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    color: rgb(32, 33, 36);
+}
+#pay{
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 6px 6px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    color: rgb(32, 33, 36);
+}
+.location{
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 6px 6px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    color: rgb(32, 33, 36);
+}
+.location input{
+    border: none;
+    border-bottom: 1px solid;
+    width: 20vw;
+}
+.school{
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 6px 6px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    color: rgb(32, 33, 36);
+}
+.school input{
+    border: none;
+    border-bottom: 1px solid;
+    width: 20vw;
+}
+#how-codetrain{
+    background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 6px 6px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    color: rgb(32, 33, 36);
+}
+#how-codetrain input{
+    border: none;
+    border-bottom: 1px solid;
+    width: 20vw;
+}
+#why-codetrain{
+     background-color: white;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 6px 6px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    color: rgb(32, 33, 36);
+}
+#why-codetrain input{
+    border: none;
+    border-bottom: 1px solid;
+    width: 20vw;
+}

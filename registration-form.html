@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codetrain Registration Form</title>
+    <link rel="stylesheet" href="registration-form.css"/>
+</head>
+<body>
+        <forms>
+            <div class="heading">
+                <div class="container">
+                    <h1>Codetrain Registration Form</h1>
+                    <p>There are 3 steps in our application process. Firstly, fill out this enrolment form, and then our admissions team will reach out to you to find out if you are a good fit for the program. If you make it through, we will assist you to get started on the admissions process. </p>
+                    <a>quashie.prince@gmail.com</a>
+                    <a href="./switch accounts">Switch accounts</a><br>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-x-icon lucide-mail-x"><path d="M22 13V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h9"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/><path d="m17 17 4 4"/><path d="m21 17-4 4"/></svg>"Not shared
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cloud-check-icon lucide-cloud-check"><path d="m17 15-5.5 5.5L9 18"/><path d="M5 17.743A7 7 0 1 1 15.71 10h1.79a4.5 4.5 0 0 1 1.5 8.742"/></svg>
+                    <p><a style="color:red;">* Indicates required question</a></p>
+                </div>
+            
+                <div class="name">
+                    <label><p>Full Name <span style="color:red">*</span></p></label>
+                    <input type="text" name="Name" placeholder="Your answer"/>
+                </div>
+                <div class="phone">
+                    <label><p>Phone Number <span style="color:red">*</span></p></label>
+                    <input type="number" name="number" placeholder="Your answer"/>
+                </div>
+                <div id="phone-number">
+                    <label><p>Phone number of next of kin.</p>
+                        <p>Phone number of someone we can reach out to in case your phone is off or not reachable. Eg, your parent, guardian or sibling, or spouse</p>
+                    </label>
+                    <input type="number" name="number" placeholder="Your answer"/>
+                </div>
+                <div class="fees">
+                    <p>Can you pay 60% or more of the full Codetrainfees (GHS6000) <span style="color:red">*</span></p>
+                <p><input type="radio" name="fees" />
+                <label>No</label></p>
+                <p><input type="radio" name="fees"/>
+                <label>Yes</label></p>
+                </div>
+                <div id="pay">
+                    <p>Please indicate who is going to pay your fees <span style="color:red">*</span></p>
+                    <p><input type="radio" name="pay"/>
+                    <label>Yourself</label></p>
+                    <p><input type="radio" name="pay"/>
+                    <label>Parent / Sponsor</label></p>
+                    <p><input type="radio" name="pay"/>
+                    <label>Organization</label></p>
+                </div>
+                <div class="location">
+                    <label><p>Location <span style="color:red">*</span></p></label>
+                    <input type="text" name="location" placeholder="Your answer"/>
+                </div>
+                <div class="school">
+                    <label><p>Current or previous school <span style="color:red">*</span></p></label>
+                    <input type="text" name="school" placeholder="Your answer"/>
+                </div>
+                <div id="how-codetrain">
+                    <label><p>Why do you want to join Codetrain <span style="color:red">*</span></p></label>
+                    <input type="text" name="how-codetrain" placeholder="Your answer"/>
+                </div>
+                <div id="why-codetrain">
+                    <label><p>How did you hear about Codetrain ? <span style="color:red">*</span></p></label>
+                    <input type="text" name="why-codetrain" placeholder="Your answer"/>
+                </div>
+                <br>
+                <input type="submit" name="submit" style="background-color: rgb(81, 44, 241);color: white; border:none;padding: 10px 25px; border-radius: 5px;" />
+            </div>
+        </forms>
+</body>
+</html>
